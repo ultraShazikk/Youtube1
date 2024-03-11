@@ -1,0 +1,80 @@
+.home .container {
+    max-width: 165px;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 35px;
+    margin-left: 16px;
+    width: 100%;
+}
+
+.home .Todos {
+    max-width: 137px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.home .Todoos {
+    max-width: 137px;
+    width: 100%;
+}
+
+.text_span {
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.home .Todosss {
+    width: 203px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home_text {
+    font-family: 'Muli';
+    color: #898989;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+        color: red;
+    }
+}
+
+.home_heading {
+    font-family: 'Muli';
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+.home_menu {
+    cursor: pointer;
+    position: absolute;
+    left: 1.3%;
+}
+
+.home_box {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 59px;
+}
+
+.home_youtube {
+    margin-left: 65px;
+    margin-top: -5px;
+}
+
+.hide {
+    display: none;
+}

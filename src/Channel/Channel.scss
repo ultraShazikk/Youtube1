@@ -1,0 +1,554 @@
+.boxjon {
+    display: flex;
+}
+
+.containerrr {
+    position: relative;
+}
+
+.boxjon .header_box_d {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.yashillll {
+    max-width: 1300px;
+    width: 100%;
+}
+
+.containerrr .boxjon .header_box_d .header_lupa {
+    left: 40%;
+    top: 24%;
+}
+
+.containerrr_box {
+    position: absolute;
+    top: 100px;
+    left: 191px;
+}
+
+.img_box_h {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_bbox {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_img {
+    margin-top: 40px;
+}
+
+.sub_box {
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_box {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_text_heading {
+    max-width: 760px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_img_text {
+    max-width: 1192px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_h_t {
+    max-width: 1005px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 61px;
+}
+
+.box_box_text {
+    max-width: 548px;
+    width: 100%;
+}
+
+.box_scrol_d {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerrr_heading {
+    font-family: 'Muli';
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+    margin: 0;
+    padding: 0;
+    padding-top: 45px;
+    padding-bottom: 1px;
+}
+
+.containerrr_text {
+    font-family: Muli;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+    margin: 0;
+    padding: 0;
+}
+
+.subscription {
+    font-family: 'Muli';
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFF;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .5s ease-out;
+
+    &:hover {
+        border: 2px solid #FF0000;
+    }
+}
+
+.menu_heading {
+    font-family: 'Muli';
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+
+.menu_heading:hover {
+    color: #FF0000;
+}
+
+.menu_heading:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #FF0000;
+}
+
+.containerrr_text_ch {
+    font-family: 'Muli';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #C2C2C2;
+}
+
+.box_h {
+    max-width: 431px;
+    width: 100%;
+    font-family: 'Muli';
+    font-size: 25px;
+    line-height: 34px;
+    color: #19202C;
+    margin: 0;
+    padding: 0;
+}
+
+.box_t {
+    max-width: 440px;
+    width: 100%;
+    font-family: 'Muli';
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.box_l {
+    font-family: 'Muli';
+    font-size: 16px;
+    line-height: 22px;
+    color: #C2C2C2;
+}
+
+.img_t_box {
+    max-width: 188px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 31px;
+}
+
+.img_t_heading {
+    font-family: 'Muli';
+    font-size: 18px;
+    line-height: 23px;
+    color: #19202C;
+    margin: 0;
+    padding: 0;
+}
+
+.box_img_j {
+    margin-top: -130px;
+}
+
+.box_scrol_heading {
+    font-family: 'Muli';
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}
+
+.box_scrol .main {
+    margin-left: -20px;
+}
+
+.containerrr .boxjon .header_box_d .header_lupa {
+    left: 50%;
+}
+
+@media (max-width: 1495px) {
+
+    html{
+        font-size: 55%;
+    }
+
+    .yashillll {
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .img_box_h {
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .img_bbox {
+        margin-left: -20px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .boxjon .header_input {
+        width: 500px;
+    }
+
+    .containerrr_text_ch {
+        display: none;
+    }
+
+    .yashillll {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .img_box_h {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .box_img_text {
+      flex-direction: column;
+    }
+
+    .box_img_j {
+        max-width: 700px;
+        width: 100%;
+        display: flex;
+        margin-top: 1px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .box_h_t {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .menu_heading {
+        font-size: 16px;
+    }
+
+    .box_scrol_d {
+        max-width: 800px;
+        width: 100%;
+    } 
+
+    .main ul {
+        max-width: 765px;
+        width: 100%;
+    }
+
+    .box_h {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .box_t {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .box_l {
+        font-size: 13px;
+    }
+
+    .box_scrol_heading {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .box_h_t {
+        gap: 20px;
+    }
+
+    .box_h_t img {
+        max-width: 300px;
+        width: 100%;
+        height: 180px;
+    }
+}
+
+@media (max-width: 960px) {
+    .kamera {
+        display: none;
+    }
+
+    .qungroq {
+        display: none;
+    }
+
+    .nuqta {
+        display: none;
+    }
+
+    .header_box {
+        max-width: 0;
+        margin-left: 20px;
+    }
+
+    .yashillll {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .img_box_h {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .img_bbox {
+        max-width: 215px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .sub_box img{
+        width: 18px;
+        height: 24px;
+    }
+
+    .sub_box {
+        max-width: 150px;
+        width: 100%;
+    }
+
+    .menu_text_heading  {
+        max-width: 710px;
+        width: 100%     ;
+    }
+
+    .box_scrol_d {
+        max-width: 735px;
+        width: 100%;
+    }
+
+    .jekchan {
+        margin-left: 100px;
+    }
+
+    .subscription {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .containerrr_heading {
+        font-size: 20px;
+    }
+
+    .img_img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 770px) {
+    .containerrr_box {
+        left: 60px;
+    } 
+
+    .containerrr .boxjon .header_box_d .header_lupa {
+        left: 80%;
+        transform: translateY(8px);
+    }
+
+    .main ul {
+        margin: 0 auto;
+        transform: translate(100px);
+    }
+
+    .containerrr_box {
+        margin-left: -40px;
+    }
+
+    .boxjon {
+        margin-left: -40px;
+    }
+
+    .boxjon .header_lupa {
+        display: none;
+    }
+}
+
+@media (max-width: 660px) {
+    .yashillll {
+        max-width: 500px;
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .img_box_h {
+        max-width: 500px;
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .sub_box {
+        transform: translateY(15px);
+    }
+
+    .menu_text_heading {
+        max-width: 500px;
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .menu_heading {
+        font-size: 14px;
+    }
+
+    .box_h_t {
+        flex-direction: column;
+    }
+
+    .box_box_text {
+        transform: translate(55px);
+        text-align: center;
+    } 
+
+    .box_l {
+        margin-left: -80px;
+    }
+
+    .img_t_box .img_t_heading {
+        font-size: 14px;
+    }
+
+    .box_img_j  {
+        gap: 20px;
+    }
+
+    .img_t_box {
+        width: 200px;;
+    }
+}
+
+@media (max-width: 575px) {
+    .yashillll {
+        display: none;
+    }
+
+    .boxjon{
+        margin: 0;
+        padding: 0;
+    }
+
+    .main_img {
+        max-width: 450px;
+        width: 100%;
+        height: 270px;
+    }
+
+    .main_item {
+        max-width: 450px;
+        width: 100%;
+        height: 270px;
+        margin-bottom: 40px;
+    }
+
+    .box_scrol_d {
+        max-width: 535px;
+        width: 100%;
+    }
+
+    .box_img_j {
+        gap: 10px;
+    }
+
+    .jekchan {
+        margin-left: 150px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .jekchan {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 430px) {
+    .jekchan {
+        margin-left: 270px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .jekchan {
+        margin-left: 310px;
+    }
+
+}

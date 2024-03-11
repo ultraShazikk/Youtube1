@@ -1,0 +1,125 @@
+.main {
+    max-width: 1700px;
+    width: 100%;
+    margin-top: 13px;
+
+    .container {
+        position: relative;
+        flex-direction: column;
+    }
+}
+
+.header_box_d {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_lupa {
+    position: absolute;
+    left: 41.5%;
+    top: 1.2%;
+}
+
+.header_input {
+    width: 603px;
+    padding: 0;
+    padding: 10px 0;
+    padding-left: 23px;
+    border: none;
+    border-radius: 50px;
+    background-color: #EBEBEB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 59px;
+}
+
+.header_box {
+    max-width: 260px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_box {
+    max-width: 205px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.main_title {
+    font-family: 'Mulish';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.main_heading {
+    max-width: 205px;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 69px;
+    width: 100%;
+    color: #000;
+}
+
+.main_img {
+    border-radius: 12px;
+}
+
+.main ul {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    gap: 40px;
+    margin: 0;
+    margin-left: 30px;
+    padding: 0;
+}
+
+.main ul {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.main ul::-webkit-scrollbar {
+    display: none;
+}
+
+.sectionjon_img {
+    border-radius: 8px;
+}
+
+.sectionjon_list a li {
+    max-width: 340px;
+    width: 100%;
+}
+
+.sectionjon_heading {
+    font-family: 'Muli';
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
